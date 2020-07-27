@@ -1,0 +1,137 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+.span {
+  font: 10px "Century Gothic", Futura, sans-serif;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #FFF5EE;
+  border: none;
+  float: left;
+  font-weight: bold;
+  line-height: 34px;
+  height: 10px;
+  padding: 0;
+  text-align: center;
+  width: 10px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game-board {
+  border: 2px solid #FFDAB9;
+  float: left;
+  clear: left;
+  margin-right: 20px;
+}
+
+.game-info {
+  width: 220px;
+  float: left;
+  display: contents;
+}
+
+.new-game {
+  margin-top: 10px;
+}
+
+.ball {
+  height: 10px;
+  width: 10px;
+  background-color: #4682B4;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.nw-brick, .n-brick, .ne-brick, .sw-brick, .s-brick, .se-brick {
+  background: #F08080;
+}
+
+.nw-brick {
+  border-left: 1px solid #FFF5EE;
+  border-top: 1px solid #FFF5EE;
+  border-radius: 3px 0px 0px 0px;
+}
+
+.n-brick {
+  border-top: 1px solid #FFF5EE;
+}
+
+.ne-brick {
+  border-right: 1px solid #FFF5EE;
+  border-top: 1px solid #FFF5EE;
+  border-radius: 0px 3px 0px 0px;
+}
+
+.sw-brick {
+  border-left: 1px solid #FFF5EE;
+  border-bottom: 1px solid #FFF5EE;
+  border-radius: 0px 0px 0px 3px; 
+}
+
+.s-brick {
+  border-bottom: 1px solid #FFF5EE;
+}
+
+.se-brick {
+  border-right: 1px solid #FFF5EE;
+  border-bottom: 1px solid #FFF5EE;
+  border-radius: 0px 0px 3px 0px; 
+}
+
+.paddle, .paddle-right, .paddle-left {
+  background-color: #B0C4DE;
+}
+
+.paddle-left {
+  border-radius: 2px 0px 0px 2px;
+}
+
+.paddle-right {
+  border-radius: 0px 2px 2px 0px;
+}
+
+.button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:focus {outline:0;}
+
+.input {
+  width: 20px;
+}
