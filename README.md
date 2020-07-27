@@ -3,6 +3,10 @@ Welcome to this ReactJS version of the classic Brick Breaker game.
 
 ## How to play
 Use <kbd>left</kbd> and <kbd>right</kbd> to move the paddle and <kbd>space</kbd> to shot.
+
+## Live DEMO
+Please enjoy this [__LIVE DEMO__](https://aqueous-thicket-00518.herokuapp.com/)
+![](brick-breaker.png)
  
 ### Purpose
 The objective of this project was strength my skills with ReactJS through a practical experience. I modeled 
@@ -24,7 +28,6 @@ the state of the game with the following state:
       brickNumber: null,
     };
 ```
-
 
 ### Build with:
 - React 16.13.1
