@@ -32,6 +32,6 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-  say-bay-workflow:
+  say-bye-workflow:
     jobs:
       - say-bye
