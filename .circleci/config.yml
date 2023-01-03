@@ -17,6 +17,14 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
+  say-bye:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - run:
+          name: "Say bye"
+          command: "echo bye!"
+          
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
@@ -24,3 +32,6 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
+  say-bay-workflow:
+    jobs:
+      - say-bye
